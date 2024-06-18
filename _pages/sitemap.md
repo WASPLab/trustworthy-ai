@@ -1,7 +1,8 @@
 ---
-layout: archive
-title: "Sitemap"
+title: "sitemap"
 permalink: /sitemap/
+header: Sitemap 
+layout: archive
 author_profile: false
 ---
 

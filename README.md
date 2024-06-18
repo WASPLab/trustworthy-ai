@@ -1,4 +1,43 @@
-# [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+# TrustAI: Guide To Jekyll Theme 
+
+## Navigation Bar
+This is the bar found along the top of the webpage. The Site Title appears on the left and the sub-urls appear on the right hand side. Currently we have the following sub-urls: 
+- Home 
+- Our Research 
+- Team 
+- Blog 
+- News And Events 
+- Outreach 
+
+The above names and their url endpoints can be modified in the file `_data\navigation.yml`. The next section goes over modifying the content at each endpoint. 
+
+## Pages 
+The pages determine what content is displayed at each endpoint defined in the Navigation Bar. The page files can be found in `_pages\`. The `permalink` and `title` fields in each pages' header is mapped to the navigation YAML file. The title is also what will appear as the title in the browser tab. The `header` field defines the H1 level header on the corresponding page. The `layout` field defines the layout of the file. The layouts themselves are described in the next section. 
+
+Clicking on the site name on the left hand side of the navigation bar takes you to the "homepage" of the website. The contents displayed on the "homepage" are defined in the file `.\index.html`. 
+
+
+## Layouts 
+A number of layouts are available in the folder `_layouts`. The layout files use HTML and Liquid to define the overall layout of the page. Layouts can be built on top of other layouts. For example, `_layouts\archive.html` is built on top of `_layouts\default.html` - most of the other layouts in turn are built on top of either one of these two layouts. 
+
+
+## Posts 
+All the .MD files in the directory `_posts\` are displayed in a pre-defined order using the layout `_layouts\posts.html`. These can be edited with blogs for a Blog page. 
+
+
+## Extra Information 
+Some details are defined in files within `_includes\`. For example, the header metadata like setting the title in HTML is defined in `_includes\head.html`. The rest of this README file has details from the theme's original Github README. 
+
+
+--- 
+---
+
+
+
+
+
+
+## [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)

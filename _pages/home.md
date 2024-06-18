@@ -1,6 +1,8 @@
 ---
-title: "Sample Page"
-permalink: /sample-page/
+title: "Home"
+permalink: /home/
+header: Trustworthy AI
+layout: home
 date: 2016-02-24T03:02:20+00:00
 ---
 
